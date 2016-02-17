@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "watchify src/main.js -v -t [babelify --presets [ react ] ] -o src/main.js",
+    "start": "watchify src/main.js -v -t [babelify --presets [ react ] ] -o public/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
